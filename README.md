@@ -1,7 +1,11 @@
 # Data Warehouse Project and Analytics Project 
 ---
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+In this project, I built a complete data warehousing and analytics solution—from designing and creating the data warehouse to generating meaningful and actionable insights from the data.
+
+Through this project, I applied industry best practices used in data engineering and analytics, including data organization, transformation, and analysis. The goal of this work was to demonstrate my ability to build a structured data warehouse and use it to support data-driven decision-making.
+
+This project is part of my portfolio and reflects my practical skills in data engineering, data warehousing, and analytics.
 ***
 
 ---
@@ -24,28 +28,21 @@ This project involves:
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
+🎯This repository showcases my skills and practical experience in several key areas of data and analytics, including:
+
+* SQL Development for querying and managing data efficiently
+* Data Architecture concepts used in designing structured data systems
+* Data Engineering techniques for building reliable data workflows
+* ETL Pipeline Development for extracting, transforming, and loading data into a data warehouse
+* Data Modeling to organize and structure data for analysis
+* Data Analytics to generate meaningful insights and support data-driven decision making
+
+This project demonstrates my ability to work across different stages of the data lifecycle, from data preparation and storage to analysis and insight generation.
+ 
 
 ---
 
-## 🛠️ Important Links & Tools:
 
-Everything is for Free!
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting your SQL database.
-- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases.
-- **[Git Repository](https://github.com/):** Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-- **[DrawIO](https://www.drawio.com/):** Design data architecture, models, flows, and diagrams.
-- **[Notion](https://www.notion.com/templates/sql-data-warehouse-project):** Get the Project Template from Notion
-- **[Notion Project Steps](https://thankful-pangolin-2ca.notion.site/SQL-Data-Warehouse-Project-16ed041640ef80489667cfe2f380b269?pvs=4):** Access to All Project Phases and Tasks.
-
----
 
 ## 🚀 Project Requirements
 
@@ -54,27 +51,16 @@ Everything is for Free!
 #### Objective 
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.  
 
-#### Specifications 
+#### Project Specifications 
 
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.  
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.  
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.  
-- **Scope**: Focus on the latest dataset only; historization of data is not required.  
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+- **Data Sources**: I imported data from two different source systems, ERP and CRM, which were provided as CSV files.  
+- **Data Quality**: I cleaned and transformed the data to resolve data quality issues before performing analysis.
+- **Integration**: I combined data from both sources into a single, well-structured data model optimized for analytical queries.
+- **Scope**: The project focuses only on the latest available dataset, and historical data tracking (historization) was not included in this implementation.
+- **Documentation**: I documented the data model clearly so that both business stakeholders and analytics teams can easily understand and use the data structure.
 
 ---
 
-### BI: Analytics & Reporting (Data Analysis)
-
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
-
-For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 ## 📂 Repository Structure
 ```
@@ -83,11 +69,11 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_architecture.png           # File shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── data_flow.png                   # File for the data flow diagram
+│   ├── data_integration.png            # File illustrating the data integration process between source systems and the data warehouse
+│   ├── data_models.png                 # File for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
@@ -98,9 +84,6 @@ data-warehouse-project/
 ├── tests/                              # Test scripts and quality files
 │
 ├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
 
